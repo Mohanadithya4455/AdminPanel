@@ -6,7 +6,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen overflow-hidden">
      
       <div className="w-1/3 lg:w-1/4 border-r shadow-lg bg-gray-900 text-white">
         <div className="text-2xl font-bold p-8 border-b border-gray-700">My Dashboard</div>
